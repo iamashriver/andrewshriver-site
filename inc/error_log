@@ -1,0 +1,2 @@
+[08-Sep-2019 16:37:05 UTC] PHP Notice:  Undefined variable: message in /home/gklbqpjjdi1x/public_html/inc/sendEmail.php on line 31
+[08-Sep-2019 16:37:05 UTC] PHP Notice:  Undefined variable: error in /home/gklbqpjjdi1x/public_html/inc/sendEmail.php on line 47
