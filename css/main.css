@@ -3706,3 +3706,80 @@ footer .row {
 
 
 /*# sourceMappingURL=main.css.map */
+
+/* ===== section spacing cleanup ===== */
+
+.s-about {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.s-works {
+    background: #111111;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.s-works .intro-wrap {
+    padding: 8rem 0;
+    background: #111111;
+}
+
+.s-clients {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-color: #e6e6e6;
+}
+
+.s-clients .section-header {
+    margin-bottom: 2rem;
+}
+
+.clients-testimonials {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.clients-testimonials::before {
+    display: none;
+}
+
+.s-contact {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+.about__line,
+.contact__line {
+    display: none;
+}
+
+/* mobile */
+@media only screen and (max-width: 600px) {
+    .s-about,
+    .s-works .intro-wrap,
+    .s-clients,
+    .s-contact {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+
+    .section-header {
+        margin-bottom: 1.5rem;
+    }
+
+    .section-header.has-bottom-sep {
+        padding-bottom: 1.5rem;
+    }
+
+    .home-content__case-study-lg-buttons {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .home-content__case-study-lg-buttons .btn {
+        display: block;
+        width: 100%;
+        margin: 0 0 1.2rem 0;
+    }
+}
